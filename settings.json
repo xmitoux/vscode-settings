@@ -1,0 +1,65 @@
+{
+  // 見た目
+  "editor.fontFamily": "consolas",
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 14,
+  "window.title": "${activeEditorLong}",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#000080",
+  },
+
+  // 動作
+  "editor.tabSize": 2,
+  "breadcrumbs.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnSave": false,
+  "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
+  "javascript.format.enable": false,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-、。「」【】『』（）！？　てにをはがのともへでや",
+  "extensions.ignoreRecommendations": true,
+
+  // GitLens
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.views.repositories.files.layout": "tree",
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true,
+    "suppressLineUncommittedWarning": true
+  },
+
+  // CSS Lint
+  "css.lint.boxModel": "error",
+  "css.lint.duplicateProperties": "error",
+  "css.lint.emptyRules": "error",
+  "css.lint.idSelector": "warning",
+  "css.lint.important": "error",
+  "css.lint.universalSelector": "warning",
+  "css.lint.unknownVendorSpecificProperties": "error",
+  "css.lint.zeroUnits": "warning",
+
+  // リモートでどのコンテナにもインストールする拡張機能
+  "remote.containers.defaultExtensions": [
+    "wmaurer.change-case",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "oderwat.indent-rainbow",
+    "sgryjp.japanese-word-handler",
+    "christian-kohler.path-intellisense",
+    "gruntfuggly.todo-tree",
+  ],
+
+  "workbench.colorTheme": "Material Dark Soda",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.rendererType": "dom",
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 0,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.shell.linux": "/usr/bin/zsh"
+}
