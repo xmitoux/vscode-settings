@@ -155,5 +155,30 @@
         "key": "ctrl+pageup",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+[Equal]",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+[Equal]",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+[Equal]",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.terminal.kill"
     }
 ]
