@@ -45,12 +45,8 @@
   // リモートでどのコンテナにもインストールする拡張機能
   "remote.containers.defaultExtensions": [
     "wmaurer.change-case",
-    "donjayamanne.githistory",
-    "eamodio.gitlens",
-    "oderwat.indent-rainbow",
     "sgryjp.japanese-word-handler",
     "christian-kohler.path-intellisense",
-    "gruntfuggly.todo-tree",
   ],
 
   "workbench.colorTheme": "Material Dark Soda",
