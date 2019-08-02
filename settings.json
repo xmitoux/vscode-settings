@@ -44,7 +44,6 @@
 
   // ローカルだけではなくリモートへのインストールが必要な拡張機能
   "remote.containers.defaultExtensions": [
-    "formulahendry.auto-complete-tag",
     "alefragnani.bookmarks",
     "wmaurer.change-case",
     "eamodio.gitlens",
