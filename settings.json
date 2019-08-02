@@ -42,9 +42,16 @@
   "css.lint.unknownVendorSpecificProperties": "error",
   "css.lint.zeroUnits": "warning",
 
-  // リモートでどのコンテナにもインストールする拡張機能
+  // ローカルだけではなくリモートへのインストールが必要な拡張機能
   "remote.containers.defaultExtensions": [
+    "formulahendry.auto-complete-tag",
+    "alefragnani.bookmarks",
     "wmaurer.change-case",
+    "eamodio.gitlens",
+    "oderwat.indent-rainbow",
+    "sgryjp.japanese-word-handler",
+    "christian-kohler.path-intellisense",
+    "gruntfuggly.todo-tree",
     "sgryjp.japanese-word-handler",
     "christian-kohler.path-intellisense",
   ],
