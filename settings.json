@@ -53,6 +53,7 @@
     "gruntfuggly.todo-tree",
     "sgryjp.japanese-word-handler",
     "christian-kohler.path-intellisense",
+    "wmaurer.vscode-jumpy",
   ],
 
   "editor.cursorBlinking": "smooth",
