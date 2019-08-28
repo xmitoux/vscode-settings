@@ -1,11 +1,18 @@
-# 使い方
-・VSCode設定ファイルディレクトリにシンボリックリンクを置く
+# VSCode設定ファイル
+以下が含まれています
+- 基本設定
+- キーボード・ショートカット
+- シンボリックリンク作成用シェルスクリプト
+- ※スニペットは保留
+
+## 使い方
+### 1. ホームディレクトリにクローン
 ```
-cd
-git clone https://github.com/xmitoux/vscode-settings .vscode-settings
-cd /home/mitou/.config/Code/User
-rm -f settings.json keybindings.json
-ln -s ~/.vscode-settings/settings.json settings.json
-ln -s ~/.vscode-settings/keybindings.json keybindings.json
-# スニペットは保留 ln -s ~/.vscode-settings/snippets snippets
+$ cd
+$ git clone https://github.com/xmitoux/vscode-settings .vscode-settings
+```
+
+### 2. シェルスクリプト実行
+```
+$ ./link.sh
 ```
