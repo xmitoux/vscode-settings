@@ -63,8 +63,16 @@
         "command": "workbench.action.focusFirstEditorGroup"
     },
     {
+        "key": "ctrl+numpad0",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
         "key": "ctrl+1",
-        "command": "-workbench.action.focusFirstEditorGroup"
+        "command": "workbench.action.focusFirstEditorGroup"
     },
     {
         "key": "ctrl+numpad2",
@@ -72,7 +80,7 @@
     },
     {
         "key": "ctrl+2",
-        "command": "-workbench.action.focusSecondEditorGroup"
+        "command": "workbench.action.focusSecondEditorGroup"
     },
     {
         "key": "ctrl+numpad3",
@@ -80,15 +88,7 @@
     },
     {
         "key": "ctrl+3",
-        "command": "-workbench.action.focusThirdEditorGroup"
-    },
-    {
-        "key": "ctrl+numpad0",
-        "command": "workbench.action.focusSideBar"
-    },
-    {
-        "key": "ctrl+0",
-        "command": "-workbench.action.focusSideBar"
+        "command": "workbench.action.focusThirdEditorGroup"
     },
     {
         "key": "ctrl+alt+numpad2",
@@ -200,5 +200,13 @@
         "key": "shift+pagedown",
         "command": "-workbench.action.terminal.scrollDownPage",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+g ctrl+i",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
     }
 ]
