@@ -55,10 +55,6 @@
         "command": "eslint.executeAutofix"
     },
     {
-        "key": "ctrl+g ctrl+l",
-        "command": "git.viewHistory"
-    },
-    {
         "key": "ctrl+numpad1",
         "command": "workbench.action.focusFirstEditorGroup"
     },
